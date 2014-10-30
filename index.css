@@ -1,7 +1,7 @@
 html {
   height: 100%;
   font-family: 'Lato',sans-serif;
-  background: #fbfaf8;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: #000;
+  background: #fff;
 }
 
 #wrapper {
@@ -23,7 +23,7 @@ body {
 }
 
 .row {
-  max-width: 1000px;
+  max-width: 600px;
   margin: 0 auto; 
 }
 
@@ -57,10 +57,10 @@ body {
 }
 
 .section.landing.form p {
-color: #ba9;
+color: #fff;
 font-weight: 500;
 margin: .25rem .25rem .4rem .25rem;
-font-size: 1.25rem;
+font-size: 1.00rem;
 line-height: 1.5rem;
 
 }
@@ -117,9 +117,7 @@ input[type="submit"] {
 .row.info {
   text-shadow: 0 1px 1px white;
   padding: 2rem 0 .5rem;
-  border-bottom: 1px solid #f1efee;
   padding: 0px 30px;
- 
   background-color: #fbfaf8;
 }
 
@@ -161,25 +159,31 @@ input[type="submit"] {
 }
 
 .row.testimonials {
-  border-top: 1px solid #f1efee;
-  text-shadow: 0 1px 1px white;
   padding: 2rem 0 .5rem;
-  border-bottom: 1px solid #f1efee;
   padding: 0px 30px;
   overflow: hidden;
-  background-color: #fff;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .testi {
+  text-align: center;
   font-style: italic;
   line-height: 1.4rem;
   overflow: hidden;
-  max-width: 300px;
   float: left;
-  padding: 5px;
+  padding: 10px;
   padding-bottom: 15px;
-  border: 1px solid red;
+}
+
+.profile {
+  border: 5px solid #fff;
+}
+
+.bio {
+  text-align: center;
+  float: right;
+  width: 270px;
 }
 
 
